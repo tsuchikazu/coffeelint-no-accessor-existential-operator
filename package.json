@@ -1,15 +1,28 @@
 {
-  "name": "coffeelint-no-existential-operator",
+  "name": "coffeelint-no-accessor-existential-operator",
   "version": "1.0.0",
-  "description": "",
+  "description": "CoffeeLint plugin for prohibiting accessor with existential operator.",
   "main": "dist/no_accessor_existential_operator.js",
+  "files": ["dist"],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tsuchikazu/coffeelint-no-accessor-existential-operator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tsuchikazu/coffeelint-no-accessor-existential-operator/issues"
+  },
+  "homepage": "https://github.com/tsuchikazu/coffeelint-no-accessor-existential-operator",
+  "author": "tsuchikazu <huneyhunt77@gmail.com>",
+  "keywords": [
+    "coffeelintrule",
+    "coffeelint"
+  ],
+  "license": "MIT",
   "scripts": {
     "build": "coffee --compile --output dist src",
     "prepublish": "npm run build",
     "test": "mocha --require 'espower-coffee/guess' test/**/*.coffee"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "coffee-script": "^1.10.0",
     "coffeelint": "^1.15.0",
