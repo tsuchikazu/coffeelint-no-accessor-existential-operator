@@ -24,7 +24,7 @@ $ npm install --save-dev coffeelint-no-accessor-existential-operator
 Put this in your coffeelint config
 ```json
 {
-  "no-accessor-existential-operator": {
+  "no_accessor_existential_operator": {
     "module": "coffeelint-no-accessor-existential-operator"
   }
 }

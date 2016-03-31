@@ -1,6 +1,6 @@
 {
   "name": "coffeelint-no-accessor-existential-operator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CoffeeLint plugin for prohibiting accessor with existential operator.",
   "main": "dist/no_accessor_existential_operator.js",
   "files": ["dist"],
